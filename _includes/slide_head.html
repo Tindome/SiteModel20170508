@@ -12,18 +12,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
 
     <script src='https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js'></script>
-    <link rel="stylesheet" href="/lib/reveal-js/css/reveal.css">
-    <link rel="stylesheet" href="/lib/reveal-js/css/theme/white.css" id="theme">
+
+    {% assign domain = site.url | append: site.baseurl %}	
+	
+    <link rel="stylesheet" href="{{domain}}/lib/reveal-js/css/reveal.css">
+    <link rel="stylesheet" href="{{domain}}/lib/reveal-js/css/theme/white.css" id="theme">
 
     <!-- Code syntax highlighting -->
-    <link rel="stylesheet" href="/lib/reveal-js/lib/css/zenburn.css">
+    <link rel="stylesheet" href="{{domain}}/lib/reveal-js/lib/css/zenburn.css">
 
     <!-- Printing and PDF exports -->
     <script>
     var link = document.createElement('link');
     link.rel = 'stylesheet';
     link.type = 'text/css';
-    link.href = window.location.search.match(/print-pdf/gi) ? "/lib/reveal-js/css/print/pdf.css" : "/lib/reveal-js/css/print/paper.css";
+    link.href = window.location.search.match(/print-pdf/gi) ? "{{domain}}/lib/reveal-js/css/print/pdf.css" : "{{domain}}/lib/reveal-js/css/print/paper.css";
     document.getElementsByTagName('head')[0].appendChild(link);
     </script>
 
