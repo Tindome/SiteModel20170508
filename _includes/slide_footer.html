@@ -1,8 +1,8 @@
-{{ site.url }}
+{% assign domain = site.url | append: site.baseurl %}
 
-<script src="{{ site.url }}/lib/reveal-js/lib/js/head.min.js">
+<script src="{{ domain }}/lib/reveal-js/lib/js/head.min.js">
 </script>
-<script src="{{ site.url }}/lib/reveal-js/js/reveal.js"></script>
+<script src="{{ domain /lib/reveal-js/js/reveal.js"></script>
 
 <script>
 // Full list of configuration options available at: 
@@ -18,7 +18,7 @@ Reveal.initialize({
     // 	{ src: '{{domain}}lib/js/classList.js', condition: function() { return !document.body.classList; } }, 
     // 	{ src: '{{domain}}plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } }, 
     // 	{ src: '{{domain}}plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } }, 
-    	{ src: '{{domain}}plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } }, 
+    	{ src: '{{ domain }}plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } }, 
     // 	{ src: 'plugin/zoom-js/zoom.js', async: true }, 
     // 	{ src: 'plugin/notes/notes.js', async: true } 
     ] 
