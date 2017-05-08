@@ -1,8 +1,16 @@
 ---
-title:  "Le plan de charge"
+title: Le plan de charge
 date:   2017-05-08
-categories: 
- ---
+excerpt: "Comment établir un plan de charge."
+image: 
+  path: &image /assets/images/half-nelson-feature.jpg
+  feature: *image
+  teaser: /assets/images/half-nelson-teaser.jpg
+  thumbnail: /assets/images/half-nelson-thumb.jpg
+  caption: "DVD screengrab from [**DB Cover**](http://www.dbcovers.com/image-of-half-nelson-2006-half_nelson_2006_1)"
+tags: [film, review, indie]
+---
+
  
  
 
