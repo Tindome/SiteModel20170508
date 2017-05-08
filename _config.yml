@@ -6,11 +6,11 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "en"
+locale                   : "fr"
 title                    : "Site Title"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
+name                     : "Stéphane TORCHY"
+description              : "Un blog personnel."
 url                      : "https://tindome.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "SiteModel20170508" # the subpath of your site, e.g. "/blog"
 repository               : "Tindome/SiteModel20170508" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
