@@ -1,10 +1,10 @@
 # main links
 main:
-  - title: "A props"
+  - title: "A propos"
     url: /about/
   - title: "Contact"
     url: /contact/
   - title: "Work"
     url: /work/
-  - title: "Blog Articles"
+  - title: "Articles"
     url: /articles/  
