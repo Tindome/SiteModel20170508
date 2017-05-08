@@ -16,9 +16,9 @@ Reveal.initialize({
     // Optional reveal.js plugins 
     dependencies: [ 
     // 	{ src: '{{domain}}lib/js/classList.js', condition: function() { return !document.body.classList; } }, 
-     	{ src: '{{domain}}/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } }, 
-     	{ src: '{{domain}}/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } }, 
-    	{ src: '{{ domain }}/plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } }, 
+     	{ src: '{{ domain }}/lib/reveal-js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } }, 
+     	{ src: '{{ domain }}/lib/reveal-js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } }, 
+    	{ src: '{{ domain }}/lib/reveal-js/plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } }, 
     // 	{ src: 'plugin/zoom-js/zoom.js', async: true }, 
     // 	{ src: 'plugin/notes/notes.js', async: true } 
     ] 
