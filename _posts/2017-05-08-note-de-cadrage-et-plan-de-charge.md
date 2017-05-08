@@ -1,4 +1,7 @@
 ---
+title:  "Le plan de charge"
+date:   2017-0-08
+categories: note de cadrage,ndc
 defaults:
   # _posts
   - scope:
@@ -12,6 +15,8 @@ defaults:
       share: true
       related: true
  ---
+ 
+ 
 
 # Préambule
 Mentor pour openclassrooms j'ai souvent à éxpliquer le plan de charge aux étudiant
